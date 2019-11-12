@@ -1,0 +1,25 @@
+input {
+    border: none;
+    width: 18em;
+    height: 2.6em;
+    font: 1em/1.25em 'Montserrat Alternates', sans-serif;
+    padding-left: 1em;
+}
+
+input:disabled {
+    color: #C4C4C4;
+    background-color: white;
+}
+
+.input-block {
+    position: relative;
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+span {
+    font-size: 1.2em;
+    margin-right: 1em;
+}

@@ -1,0 +1,72 @@
+.login-page-button {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 1.2em;
+    width: 10em;
+    height: 2.5em;
+    background-color: #EAE463;
+    border: none;
+    position: relative;
+    margin-bottom: 1em;
+}
+
+.login-page-button:disabled,
+.login-page-button[disabled]{
+  background-color: #FAF9DB;
+  color: #C4C4C4;
+}
+
+.login-page-button:hover:enabled {
+    background-color: white;
+}
+
+.login-page-button:active {
+    /* background-color: #262061; */
+    color: #C4C4C4;
+}
+
+.loading {
+    display: flex;
+    justify-content: space-around;
+    padding: 0em 1.2em;
+}
+
+.loading:hover {
+    background-color: #FAF9DB;
+}
+
+  .lds-facebook {
+    bottom: 0.4em;
+    position: relative;
+    width: 64px;
+    height: 2.5em;
+  }
+  .lds-facebook div {
+    display: inline-block;
+    position: absolute;
+    left: 6px;
+    width: 13px;
+    background-color: #EAE463;
+    animation: lds-facebook 1.2s infinite;
+  }
+  .lds-facebook div:nth-child(1) {
+    left: 6px;
+    animation-delay: -0.24s;
+  }
+  .lds-facebook div:nth-child(2) {
+    left: 26px;
+    animation-delay: -0.12s;
+  }
+  .lds-facebook div:nth-child(3) {
+    left: 45px;
+    animation-delay: 0;
+  }
+  @keyframes lds-facebook {
+    0% {
+      top: 6px;
+      height: 51px;
+    }
+    50%, 100% {
+      top: 19px;
+      height: 26px;
+    }
+  }
